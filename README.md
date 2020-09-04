@@ -200,6 +200,15 @@ A database of all discovered extrasolar planets. The codebook and steps to acces
 ## Galaxy Zoo Data
 Galaxy Zoo was a citizen science project with the purpose of classifying the morphologies of ~1 million galaxies imaged by the SDSS. The classification data, along with measurements of bulge size, presence of bars, and the structure of spiral arms, are now available [here](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/data) on Kaggle.
 
+##ASAS-SN 
+
+All-Sky Automated Survey for Supernovae is observing the whole sky using 24 telescopes, and achieving a limiting magnitude of 18 magnitudes. Beside observing Supernovae explosions they have an large and consistent database of variable stars. The information about individual stars consists of their position, parallaxes (distance), periods, all the additional source of photometry available about the star, color-indexes. 
+
+ - The data is available at the following page: https://asas-sn.osu.edu/variables
+
+ - An exapmle of a detailed description of individual stars: https://asas-sn.osu.edu/variables/885aae98-102b-5794-a60a-e2c0b55ec984
+
+
 ## Optical Gravitational Lensing Experiment (OGLE) data
 
 OGLE is an observing project that started in 1992. It has the longest ground based observational data set of the Southern sky, specifically the Magellanic Clouds. OGLE gives png format pictures of the periodic variable stars. If a pulsating star has more than one pulsational period then folded light curves are given for all the present periods. This means that there is also additional data for each star: period of pulsation(s), Fourier parameters (from light curve decomposition). The light curves on the png pictures are in the I filter. There were some differences in the catalogs from one release to the other. Here, we have the OGLE Collection of Variable Stars and OGLE-III. 
@@ -208,6 +217,8 @@ OGLE is an observing project that started in 1992. It has the longest ground bas
 - 639 309 stars in total
 - Types of variables: classical Cepheids (CEP), anomalous Cepheids (ACEP), Type II Cepheids (T2CEP), RR Lyrae variables (RRLYR), eclipsing stars (ECL)
 - Find the data [here](http://ogledb.astrouw.edu.pl/~ogle/OCVS/index.php)
+- An example phase folded light curves of varibles stars (highly suitable for supervised learning): http://ogledb.astrouw.edu.pl/~ogle/OCVS/images/01/OGLE-BLG-CEP-001_1.png
+
 
 ### OGLE-III Data
 - 399 651 stars
